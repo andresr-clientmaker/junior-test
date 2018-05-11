@@ -8,15 +8,17 @@ This is quite a straightforward test that'll let us dig into your API knowledge,
 
 Given the next entities (in json format 'coz why not) you will have to create some endpoints 😃
 
+### Kids:
+
 ```json
     [
-        { // #kidref
+        {
             id: 1,
             name: 'Jhon',
             lastname: 'Doe',
             notes: [1,2]
         },
-        { // #kidref
+        {
             id: 2,
             name: 'Juana',
             lastname: 'De Arco',
@@ -25,17 +27,19 @@ Given the next entities (in json format 'coz why not) you will have to create so
     ]
 ```
 
+### Notes:
+
 ```json
     [
-        { // #noteref
+        {
             id: 1,
             note: 'Whatever meggings jean shorts, pabst adaptogen drinking vinegar chambray XOXO flexitarian kale chips cold-pressed af fashion axe.'
         },
-        { // #noteref
+        {
             id: 2,
             note: 'Normcore put a bird on it gastropub kickstarter kogi umami street art adaptogen echo park art party franzen succulents.'
         },
-        { // #noteref
+        {
             id: 5,
             note: 'Mustache hexagon jean shorts mlkshk etsy, copper mug farm-to-table cardigan shabby chic leggings vexillologist.'
         }
