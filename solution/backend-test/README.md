@@ -1,11 +1,11 @@
-#Junior-test Solution
+# Junior-test Solution
 
-#Prerequisites
+# Prerequisites
 - PHP version between 5.5.9 - 7.1.*
 - Laravel installed
 - Composer installed
 
-##Installation/Configuration steps
+## Installation/Configuration steps
 
 - Clone this repository
 - Go to the folder application using cd command on your cmd or terminal
@@ -18,17 +18,17 @@
 - Run php artisan db:seed (This will insert data into the tables created before)
 - Run php artisan serve
 
-##Usage
+## Usage
 
 Using an HTTP client to test REST API (Postman recommended) you can test the functionality required.
 
 There are five methods to test:
 
-###Get Methods
+### Get Methods
 - getAllKids (http://localhost:8000/api/getAllKids) - Returns the list of all the kids with their notes
 - getAllNotes (http://localhost:8000/api/getAllNotes) - Returns all the notes with the id's of the user
 
-###Post Methods
+### Post Methods
 - allNotesKid (http://localhost:8000/api/allNotesKid) - Returns a list with all the notes from a kid.
 
 This method receives a JSON with the id of a kid, for example:
